@@ -22,4 +22,4 @@ The project files are organized as required by the course:
 
 
 ## License
-This project is for educational purposes as part of COMP 334 at [Your University Name].
+This project is for educational purposes as part of COMP 334 at [Birzeit University].

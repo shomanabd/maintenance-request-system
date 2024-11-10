@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Maintenance Request Submission Form</title>
+
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="shomanabd logo" width="200" height="150">
+        <h1>Maintenance Request Submission Form</h1>
+        <hr>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contactUs.html">contact us</a></li>
+    
+        </ul>
+        <hr>
+    </header>
+
+    <h2>Submit a Maintenance Request</h2>
+    <form action="http://yhassouneh.studentprojects.ritaj.ps/util/process.php" method="post" enctype="multipart/form-data">
+        <label >Full Name:</label><br>
+        <input type="text" id="name" name="name"  required><br><br>
+
+        <label >Email Address:</label><br>
+        <input type="email" id="email" name="email"  required><br><br>
+
+        <label >Location/Room Number:</label><br>
+        <input type="text"  name="location"  required><br><br>
+
+        <label >Issue Description:</label><br>
+        <textarea id="description" name="description"  placeholder="Describe the issue..." required></textarea><br><br>
+
+        <label >Urgency Level:</label><br>
+        <select  name="urgency">
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+        </select><br><br>
+
+        <label >Upload a Photo of the Issue (optional):</label><br>
+        <input type="file" id="photo" name="photo" accept="image/*"><br><br>
+
+         <button  type="submit"><a href="conformation.html" >submit request</a></button>
+    </form>
+
+
+
+        <footer>
+            <nav>
+                <p>&copy; shomanabd solutions | <a href="https://en.wikipedia.org/wiki/Privacy_policy">Privacy_policy</a></p>
+                <address>
+                    <p>Palestine,jenin.</p>
+                    <p>contact Us :</p>
+                    <a href="tel:+970-598-467-002">+970 598 467 002 </a><br>
+                    <a href="mailto:1223166@student.birzeit.edu">1223166@student.birzeit.edu</a>
+                </address>
+            </nav>
+        </footer>
+    </body>
+</html>
